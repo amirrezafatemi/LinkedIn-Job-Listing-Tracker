@@ -4,9 +4,9 @@ LOGIN_DIR = r"layout\\user_data\\login.txt"
 
 def saving_data(email, psswd):
     with open(LOGIN_DIR, "r+") as f:
-        f.writelines(email)
+        f.write(email)
         f.write("\n")
-        f.writelines(psswd)
+        f.write(psswd)
 
 
 

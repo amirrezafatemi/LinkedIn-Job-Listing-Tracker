@@ -1,0 +1,11 @@
+selenium
+
+ChromeDriver
+
+streamlit
+
+beautifulsoup4
+
+webdriver-manager
+
+lxml
