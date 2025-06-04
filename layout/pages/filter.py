@@ -2,10 +2,10 @@ import streamlit as st
 import pandas as pd
 import os
 
+os.system("python tracker.py")
+
 def adding_data():
     pass
-
-os.system("python tracker.py")
 
 st.title("Filtering Page")
 

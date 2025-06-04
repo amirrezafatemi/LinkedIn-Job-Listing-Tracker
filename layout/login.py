@@ -20,8 +20,8 @@ st.title("LinkedIn Job Listing Tracker")
 
 with st.form("Login page", clear_on_submit=True, enter_to_submit=False):
 
-    email = st.text_input("Email", icon=":material/mail:")
-    password = st.text_input("Password", type="password", icon=":material/key:")
+    email = st.text_input("Email", value="test@mail.com", icon=":material/mail:")
+    password = st.text_input("Password", value="1234567", type="password", icon=":material/key:")
     saving_data(email, password)
     submit_button = st.form_submit_button(label="Submit")
     if submit_button:
